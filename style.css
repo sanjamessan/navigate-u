@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f0f0f0;
+}
+
+.map-container {
+  position: relative;
+  display: inline-block;
+}
+
+.map {
+  width: 300px;
+  border: 2px solid #ccc;
+}
+
+#user-position, .beacon {
+  position: absolute;
+  font-size: 20px;
+}
+
+#user-position {
+  top: 100px;
+  left: 50px;
+}
+
+#beacon1 {
+  top: 30px;
+  left: 250px;
+  color: red;
+}
